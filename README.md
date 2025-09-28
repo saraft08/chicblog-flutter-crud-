@@ -93,12 +93,14 @@ Instalar dependencias:
 
 bash
 flutter pub get
-Ejecutar la aplicación:
 
+Ejecutar la aplicación:
 bash
 flutter run
+
 Ejecución en diferentes plataformas
 bash
+
 # Android
 flutter run -d android
 
@@ -109,4 +111,5 @@ flutter run -d ios
 flutter run -d chrome
 
 # Windows
+flutter run -d windows
 
