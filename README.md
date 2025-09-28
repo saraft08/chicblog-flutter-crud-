@@ -55,3 +55,58 @@ Una aplicación móvil desarrollada en Flutter que implementa operaciones CRUD c
 ├── utils/
 │ └── constants.dart # Constantes y temas de diseño
 └── main.dart # Punto de entrada de la app
+
+##  Diseño y Temática
+
+La aplicación presenta un **diseño femenino moderno** con:
+- **Paleta de colores**: Rosa suave, blanco y crema
+- **Tipografía elegante**: Fuentes legibles y modernas
+- **Iconografía intuitiva**: Iconos que guían la experiencia de usuario
+- **Espaciado cuidadoso**: Diseño visualmente equilibrado
+
+##  API Utilizada
+
+### JSONPlaceholder API
+- **Base URL**: `https://jsonplaceholder.typicode.com`
+- **Endpoints utilizados**:
+  - `GET /posts` - Obtener todos los posts
+  - `GET /posts/{id}` - Obtener post específico
+  - `POST /posts` - Crear nuevo post
+  - `PUT /posts/{id}` - Actualizar post existente
+  - `DELETE /posts/{id}` - Eliminar post
+
+### Estructura de datos
+```json
+{
+  "id": 1,
+  "title": "Título del post",
+  "body": "Contenido del post...",
+  "userId": 1
+}
+
+Pasos para ejecutar
+Clonar o descargar el proyecto
+
+Navegar al directorio del proyecto
+
+Instalar dependencias:
+
+bash
+flutter pub get
+Ejecutar la aplicación:
+
+bash
+flutter run
+Ejecución en diferentes plataformas
+bash
+# Android
+flutter run -d android
+
+# iOS
+flutter run -d ios
+
+# Web
+flutter run -d chrome
+
+# Windows
+
