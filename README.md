@@ -113,3 +113,7 @@ flutter run -d chrome
 # Windows
 flutter run -d windows
 
+
+Demo app
+- Video del funcionamiento básico de la app https://youtu.be/61F7zpgYhCw
+
